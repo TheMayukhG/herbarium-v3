@@ -57,7 +57,7 @@ body {
 }
 
 .card {
-  width: 20vw;
+  width: 270px;
   height: 400px;
   /* padding: 0 40px;  */
   margin: 0 20px 0 20px;
@@ -349,4 +349,13 @@ body {
   place-items: center;
   font-size: 25px;
   color: #001a2e;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+  }
+  .card{
+    margin-bottom: 20px;
+  }
 }
